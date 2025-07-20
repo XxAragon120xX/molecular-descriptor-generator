@@ -116,7 +116,7 @@ Your Excel file should have the following structure:
 
 **File requirements:**
 - Format: `.xlsx` (Excel)
-- File name: `XNXX.xlsx` (or modify in code)
+- File name: `DATA.xlsx` (or modify in code)
 - Required column: `SMILES` (with valid SMILES notation)
 
 ### Customization
@@ -162,7 +162,7 @@ molecular-descriptors-analysis/
 ├── molecular_analysis.py            # Main script
 ├── requirements.txt                 # Project dependencies
 ├── data/                           # Input data
-│   ├── XNXX.xlsx                   # Example file
+│   ├── DATA.xlsx                   # Example file
 │   └── example_dataset.xlsx        # Test dataset
 ├── results/                        # Generated results
 │   └── complete_molecular_descriptors_analysis.xlsx
